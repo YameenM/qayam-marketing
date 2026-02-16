@@ -37,6 +37,49 @@ export default function ScreenshotSection() {
           Designed specifically for hotels and guest houses in Pakistan.
         </p>
 
+        {/* Founder Credibility Section */}
+        <div className="mt-10 mx-auto max-w-3xl rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-6 text-left">
+          <h3 className="text-lg font-semibold text-emerald-400">
+            Built by Hospitality Professionals
+          </h3>
+
+          <p className="mt-4 text-sm text-slate-300 leading-relaxed">
+            Qayam PMS was built after 20+ years of real hotel operations experience
+            across Pakistan, UAE, and the USA. We have worked at the front desk,
+            handled night audits, managed housekeeping teams, and dealt with daily
+            cash and guest challenges.
+          </p>
+
+          <p className="mt-4 text-sm text-slate-300 leading-relaxed">
+            This is not software built by developers alone it is a system designed
+            by people who understand how hotels actually operate.
+          </p>
+
+          {/* On-site Demo Line */}
+          <p className="mt-6 text-sm font-medium text-emerald-400">
+            On-site demos in Karachi. Lahore & Islamabad on request. Nationwide online demos available.
+            </p>
+
+            <div className="mt-4 text-sm text-slate-300 space-y-1">
+            <p>
+                📞 Call or WhatsApp:{" "}
+                <a
+                href="https://wa.me/923307015150"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-400 font-medium hover:underline"
+                >
+                +92 330 7015150
+                </a>
+            </p>
+
+            <p>
+                💻 Live Zoom demo available anytime by appointment.
+            </p>
+            </div>
+
+        </div>
+
       </div>
     </section>
   );

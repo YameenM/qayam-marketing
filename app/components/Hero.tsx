@@ -7,11 +7,11 @@ export default function Hero() {
         
         {/* Headline */}
         <h1 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-5xl">
-          The Modern Property Management System
-          <br className="hidden sm:block" />
-          for Hotels & Guest Houses in{" "}
-          <span className="text-emerald-500">Pakistan</span>
+        Hotel & Guest House Property Management System
+        <br className="hidden sm:block" />
+        in <span className="text-emerald-500">Pakistan</span>
         </h1>
+
 
         {/* Subheading */}
         <p className="mx-auto mt-5 max-w-xl text-base text-slate-400 sm:mt-6 sm:text-lg">

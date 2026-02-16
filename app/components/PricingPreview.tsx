@@ -120,14 +120,31 @@ export default function PricingPreview() {
 
           {/* Features */}
           <ul className="mt-8 space-y-3 text-sm text-slate-300 text-left max-w-sm mx-auto">
-            <li>✔ Unlimited rooms</li>
-            <li>✔ Front Desk & Reservations</li>
-            <li>✔ Housekeeping Board</li>
-            <li>✔ Night Audit System</li>
-            <li>✔ Accounts & Folio</li>
-            <li>✔ PKR Billing</li>
-            <li>✔ Local Support</li>
-          </ul>
+        <li>✔ Unlimited rooms</li>
+        <li>✔ Front Desk & Reservations</li>
+        <li>✔ Housekeeping Board</li>
+        <li>✔ Night Audit System</li>
+        <li>✔ Accounts & Folio</li>
+        <li>✔ PKR Billing</li>
+        <li>✔ Free system setup & onboarding</li>
+        <li>✔ Free staff training (Front Desk & Housekeeping)</li>
+        <li>✔ WhatsApp support during initial training</li>
+        <li>✔ Local support in Pakistan</li>
+        </ul>
+
+
+        <div className="mt-6 rounded-lg border border-emerald-500/20 bg-emerald-500/5 p-4 text-sm text-emerald-400">
+        Built with 20+ years of real hotel operations experience across Pakistan, UAE, and the USA.
+        We understand front desk pressure, night audit discipline, staff training challenges, and daily cash handling realities.
+        We don’t just install software we train your team and stay with you until everything runs smoothly.
+        </div>
+
+
+
+        <p className="mt-4 text-xs text-slate-500">
+        Now onboarding select early partner hotels in Pakistan.
+        </p>
+
 
           {/* CTA */}
           <a

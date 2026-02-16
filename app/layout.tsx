@@ -5,15 +5,16 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://qayam.com.pk"),
 
   title: {
-    default: "Qayam PMS – Property Management System for Hotels in Pakistan",
+    default:
+      "Property Management System for Hotels & Guest Houses in Pakistan | Qayam PMS",
     template: "%s | Qayam PMS",
   },
-
+  
   description:
-    "Qayam PMS is a cloud-based Property Management System built for hotels in Pakistan. Manage reservations, front desk, housekeeping, night audit, and accounts in one secure platform.",
+  "Cloud-based Property Management System for Hotels & Guest Houses in Pakistan. Manage reservations, front desk, housekeeping, night audit and accounts in one secure PMS built for PKR billing and local operations.",
 
   verification: {
-    google: "bR22E7uJzOwbIJOY",
+    google: "bR22E7uJzOwbIJOYIbFNsdSiJR0RBvPjklfF77rTtj8",
   },
 
   keywords: [
