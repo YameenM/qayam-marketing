@@ -7,17 +7,17 @@ export default function Hero() {
         
         {/* Headline */}
         <h1 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-5xl">
-        Hotel & Guest House Property Management System
-        <br className="hidden sm:block" />
-        in <span className="text-emerald-500">Pakistan</span>
+          Hotel & Guest House Property Management System{" "}
+          <span className="sm:block">
+            in <span className="text-emerald-500">Pakistan</span>
+          </span>
         </h1>
-
 
         {/* Subheading */}
         <p className="mx-auto mt-5 max-w-xl text-base text-slate-400 sm:mt-6 sm:text-lg">
           Manage reservations, front desk, housekeeping, night audit
           and accounts all in one secure cloud platform built for
-          Pakistani hotels & Guest Houses across Pakistan.
+          Hotels & Guest Houses across Pakistan.
         </p>
 
         {/* CTA Buttons */}

@@ -61,22 +61,33 @@ export default function ScreenshotSection() {
             </p>
 
             <div className="mt-4 text-sm text-slate-300 space-y-1">
-            <p>
-                📞 Call or WhatsApp:{" "}
-                <a
-                href="https://wa.me/923307015150"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-400 font-medium hover:underline"
-                >
-                +92 330 7015150
-                </a>
-            </p>
+          <p>
+            📞 Call or WhatsApp:{" "}
+            <a
+              href="https://wa.me/923307015150"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-400 font-medium hover:underline"
+            >
+              +92 330 7015150
+            </a>
+          </p>
 
-            <p>
-                💻 Live Zoom demo available anytime by appointment.
-            </p>
-            </div>
+          <p>
+            📧{" "}
+            <a
+              href="mailto:info@sohumbit.com?subject=Inquiry about Qayam PMS"
+              className="text-emerald-400 font-medium hover:underline"
+            >
+              info@sohumbit.com
+            </a>
+          </p>
+
+          <p>
+            💻 Live Zoom demo available anytime by appointment.
+          </p>
+        </div>
+
 
         </div>
 

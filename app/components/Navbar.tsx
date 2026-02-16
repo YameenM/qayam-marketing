@@ -30,11 +30,11 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <nav className="hidden items-center gap-6 text-sm text-slate-400 md:flex">
-            <Link href="#features" className="hover:text-slate-200 transition">
-              Features
-            </Link>
             <Link href="#pricing" className="hover:text-slate-200 transition">
               Pricing
+            </Link>
+            <Link href="#features" className="hover:text-slate-200 transition">
+              Features
             </Link>
             <Link href="https://pms.qayam.com.pk/login" className="hover:text-slate-200 transition">
               Login
