@@ -1,9 +1,10 @@
 import "./globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Qayam – Hotel Booking & PMS in Pakistan",
+export const metadata: Metadata = {
+  title: "Qayam – Property Management System",
   description:
-    "Modern hotel booking and property management platform for Pakistan.",
+    "Modern hotel property management system for Pakistan. Manage reservations, front desk, night audit and accounts in one cloud platform.",
 };
 
 export default function RootLayout({
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-slate-950 text-slate-100 antialiased">
+        {children}
+      </body>
     </html>
   );
 }
