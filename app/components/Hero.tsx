@@ -1,4 +1,5 @@
-import Link from "next/link";
+
+import MarketingButtons from "@/components/MarketingButtons";
 
 export default function Hero() {
   return (
@@ -20,22 +21,8 @@ export default function Hero() {
           Hotels & Guest Houses across Pakistan.
         </p>
 
-        {/* CTA Buttons */}
-        <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:justify-center">
-          <Link
-            href="https://pms.qayam.com.pk"
-            className="w-full rounded-md bg-emerald-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-emerald-500 sm:w-auto"
-          >
-            Start Free Trial
-          </Link>
-
-          <Link
-            href="https://pms.qayam.com.pk/login"
-            className="w-full rounded-md border border-slate-700 px-6 py-3 text-base text-slate-300 transition hover:bg-slate-900 sm:w-auto"
-          >
-            Login to PMS
-          </Link>
-        </div>
+        {/* CTA Buttons */} 
+        <MarketingButtons />
 
         {/* Trust Line */}
         <p className="mt-6 text-xs text-slate-500 sm:text-sm">
